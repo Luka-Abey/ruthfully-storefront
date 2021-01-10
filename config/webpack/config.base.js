@@ -103,8 +103,8 @@ module.exports = ({ sourceDir, distDir }) => ({
     // PWA plugins
     new WebappWebpackPlugin({
       favicons: {
-        appDescription: "Storefront for the Saleor e-commerce platform",
-        appName: "Saleor",
+        appDescription: "Ruthfully Shop",
+        appName: process.env.TITLE,
         background: "#ddd",
         developerURL: null, // prevent retrieving from the nearest package.json
         display: "standalone",
@@ -114,7 +114,7 @@ module.exports = ({ sourceDir, distDir }) => ({
       prefix: "images/favicons/",
     }),
     new webpack.EnvironmentPlugin({
-      API_URI: "http://localhost:8000/graphql/",
+      API_URI: "35.179.88.234:8000",
       DEMO_MODE: false,
       GTM_ID: undefined,
       SENTRY_APM: "0",
