@@ -5,7 +5,7 @@ import * as React from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 import { Link } from "react-router-dom";
 
-import { Button, Loader, ProductsFeatured } from "../../components";
+import { Loader, ProductsFeatured } from "../../components";
 import { generateCategoryUrl } from "../../core/utils";
 
 import {
@@ -42,45 +42,19 @@ const Page: React.FC<{
             : null
         }
       >
-        <div className="home-page__hero-text">
-          <div>
-            <span className="home-page__hero__title">
-              <h1>
-                <FormattedMessage defaultMessage="Final reduction" />
-              </h1>
-            </span>
-          </div>
-          <div>
-            <span className="home-page__hero__title">
-              <h1>
-                <FormattedMessage defaultMessage="Up to 70% off sale" />
-              </h1>
-            </span>
-          </div>
-        </div>
         <div className="home-page__hero-action">
           {loading && !categories ? (
             <Loader />
           ) : (
-            categoriesExist() && (
-              <Link
-                to={generateCategoryUrl(
-                  categories.edges[0].node.id,
-                  categories.edges[0].node.name
-                )}
-              >
-                <Button testingContext="homepageHeroActionButton">
-                  <FormattedMessage defaultMessage="Shop sale" />
-                </Button>
-              </Link>
-            )
+            categoriesExist() && <h2>hello</h2>
           )}
         </div>
       </div>
       <ProductsFeatured
         title={intl.formatMessage({ defaultMessage: "Featured" })}
       />
-      {categoriesExist() && (
+      {categoriesExist() && 
+      (
         <div className="home-page__categories">
           <div className="container">
             <h3>
