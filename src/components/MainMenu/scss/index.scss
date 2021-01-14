@@ -46,10 +46,10 @@
     align-self: center;
 
     svg {
-      width: 4rem;
+      width: 10rem;
 
       @media (min-width: $small-screen) {
-        width: 6rem;
+        width: 10rem;
       }
     }
   }
@@ -179,7 +179,10 @@
   }
 
   &__search {
-    padding: $spacer;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     cursor: pointer;
     line-height: 24px;
     transition: 0.3s;
