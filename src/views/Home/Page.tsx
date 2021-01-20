@@ -46,7 +46,9 @@ const Page: React.FC<{
           {loading && !categories ? (
             <Loader />
           ) : (
-            categoriesExist() && <h2>hello</h2>
+            categoriesExist() && <h2>
+            Ruth Packham is an artist and crafter from North Wales. Her practice currently revolves around felt, weaving it to create figurines and prints.
+            </h2>
           )}
         </div>
       </div>

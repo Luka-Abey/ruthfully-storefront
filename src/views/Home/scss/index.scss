@@ -2,12 +2,15 @@
 
 .home-page {
   &__hero {
-    background-color: $autofillColor;
+    // background-color: $autofillColor;
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
-    text-align: center;
-    padding: 12rem 0;
+    // text-align: center;
+    // max-width: 80%;
+    // align-items: center;
+    // justify-content: center;
+    padding: 10% 10%;
 
     &-text {
       overflow: hidden;
