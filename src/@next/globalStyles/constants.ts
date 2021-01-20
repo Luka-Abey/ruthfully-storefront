@@ -68,7 +68,7 @@ export const theme = {
 };
 
 // typography
-export const baseFontFamily = "'Inter', sans-serif";
+export const baseFontFamily = "Courier New";
 export const baseFontSize = "1rem"; // 16px
 export const baseLineHeight = "1.25rem"; // 20px
 export const boldFontWeight = 600;

@@ -53,8 +53,7 @@ export const SOCIAL_MEDIA = [
 ];
 export const META_DEFAULTS = {
   custom: [],
-  description:
-    "Ruth Packham: Artist/Maker",
+  description: "Ruth Packham: Artist/Maker",
   title: "Ruth Packham",
   type: "website",
   url: window.location.origin,

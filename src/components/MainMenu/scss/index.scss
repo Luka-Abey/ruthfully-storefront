@@ -7,7 +7,7 @@
 .main-menu {
   align-items: center;
   align-items: stretch;
-  background-color: $white;
+  background-color: $autofillColor;
   border-bottom: 1px solid $gray-light;
   display: flex;
   flex-direction: row;
@@ -72,7 +72,6 @@
   }
 
   &__hamburger {
-    border-right: 1px solid $gray-light;
     cursor: pointer;
     padding: $spacer;
 
@@ -229,7 +228,7 @@
     }
 
     &__body {
-      background: $white;
+      background: $autofillColor;
       border-top-color: $gray-light;
       border-top-style: solid;
       border-top-width: 1px;
@@ -268,7 +267,7 @@
           position: relative;
 
           &:before {
-            background-color: $turquoise-light;
+            background-color: $autofillColor;
             content: "";
             height: 1px;
             left: 0;

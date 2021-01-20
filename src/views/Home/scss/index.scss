@@ -2,7 +2,7 @@
 
 .home-page {
   &__hero {
-    background-color: $blue-overlay;
+    background-color: $autofillColor;
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
@@ -48,7 +48,6 @@
         display: inline-block;
         transform: skew(-45deg);
         font-weight: $bold-font-weight;
-        text-transform: uppercase;
         color: $blue;
         font-size: $h1-font-size;
         font-weight: 900;
@@ -66,9 +65,9 @@
 
   &__categories {
     margin-bottom: 2rem;
+    // background-color: $autofillColor;
 
     h3 {
-      text-transform: uppercase;
       font-weight: $bold-font-weight;
       margin-bottom: 1rem;
     }

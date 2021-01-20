@@ -1,10 +1,10 @@
 @import "../../../globalStyles/scss/variables.scss";
 
 .product-page {
-  background-color: $white;
+  background-color: $autofillColor;
 
   .breadcrumbs {
-    background-color: $white;
+    background-color: $autofillColor;
     padding: $spacer / 2 $spacer $spacer / 2 $spacer * 1.5;
     margin-top: $spacer * 2;
   }
@@ -97,7 +97,7 @@
   }
 
   &__other-products {
-    background-color: $white;
+    background-color: $autofillColor;
     padding: $spacer * 4 0;
 
     &__title {
