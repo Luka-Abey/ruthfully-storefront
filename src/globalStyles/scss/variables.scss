@@ -14,7 +14,6 @@ $turquoise: #696969b9;
 $white: #fff;
 $blue-overlay: rgba($blue, 0.15);
 $autofillColor: rgb(253, 247, 241);
-// $autofillColor: rgb(255, 153, 51);
 $autofillColorSelected: rgb(232, 240, 254);
 $darkGreen: #06847b;
 
@@ -44,8 +43,8 @@ $button-box-shadow-clicked: -3px 3px 14px 0px rgba(129, 67, 67, 0.2);
 $button-padding: 0.9rem 3.7rem;
 $button-padding-small-screen: 0.9rem 1rem;
 $button-transition: 0.3s;
-$button-transform: skew(45deg);
-$button-content-transform: skew(-45deg);
+$button-transform: skew(0deg);
+$button-content-transform: skew(0deg);
 $button-text-transform: uppercase;
 $button-font-weight: $bold-font-weight;
 
